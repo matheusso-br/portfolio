@@ -28,6 +28,7 @@ Durante meu curso, tenho adquirido conhecimentos sólidos em programação, algo
 
 ## Habilidades
 
+- VS Code (intermediário)
 - HTML5 (avançado)
 - CSS3 (avançado)
 - Bootstrap (intermediário)
@@ -36,6 +37,7 @@ Durante meu curso, tenho adquirido conhecimentos sólidos em programação, algo
 - Python (intermediário)
 - PHP (básico)
 - MySQL (básico)
+- Git (intermediário)
 
 ## Educação
 
