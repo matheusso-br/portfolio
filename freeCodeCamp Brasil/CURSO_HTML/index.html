@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="autor" content="Matheus Oliveira">
+        <meta name="assunto" content="Um aplicativo para quem ama gatos e quer aprender mais sobre eles.">
+        <meta name="palavra-chave" content="aplicativo, gatos">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" href="img/favicon-32x32.png">
+        <link rel="stylesheet" href="/style.css">
+
+        <title>Minha primeira página web</title>
+
+    </head>
+
+
+
+    <!--INTERFACE INICIAL DO APLICATIVO-->
+
+    <body>
+
+        <!--CABEÇALHO-->
+        <header>
+            
+            <h1>App meu gatinho fofinho 😸</h1>
+            
+            <nav aria-label="navegação primária">
+
+                <ul id="nav_menu">
+                    <li><a href="/fotos_de_gatos.html">Fotos de gatos</a></li>
+                    <li><a href="/formulario_felino.html">Formulário</a></li>
+                    <li><a href="#fatos">Fatos sobre gatos</a></li>
+                    <li><a href="#colabore">Colabore com o app</a></li>
+                </ul>
+
+            </nav>
+
+        </header>
+
+        <!--MENU: PRINCIPAL-->
+        <main>
+
+            <!--SEÇÃO INICIAL-->
+            <section>
+
+                <hr>
+
+                <h2>Fotos de gatos</h2>
+                <p>Clique para ver mais <a href="/fotos_de_gatos.html" target="_blank">fotos de gatos</a>!</p>
+                <a id="link_foto" href="/fotos_de_gatos.html" target="_blank"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Um gato laranja deitado de costas." style="cursor: pointer;"></a>
+
+                <hr>
+
+            </section>
+
+            <!--ARTIGO COM 2 SEÇÕES-->
+            <article id="fatos">
+
+                <!--1º SEÇÃO-->
+                <section>
+
+                    <h2>Fatos sobre gatos</h2>
+                    <h3>Coisas que gatos amam:</h3>
+
+                    <ul>
+
+                        <li>catnip (erva para gatos)</li>
+                        <li>amassar pãozinho</li>
+                        <li> cheirar azeitonas</li>
+
+                    </ul>
+
+                    <figure>
+
+                        <img src="img/azeitona.jpeg" alt="Azeitonas pretas e verdes." width="280" height="185">
+                        <figcaption><em>Gatos amam cheirar azeitonas.</em></figcaption>
+
+                    </figure>
+
+                    <aside>
+
+                        <details>
+
+                            <summary>Por que alguns gatos adoram azeitonas?</summary>
+                            <p>Isso acontece devido à presença de componente químico semelhante ao encontrado no catnip</p>
+                            <p><strong>Atenção:</strong> Azeitonas são ricas em sódio. Então, <mark>não deixe</mark> seu gatinho comer azeitonas!</p>
+
+                        </details>
+
+                    </aside>
+
+                </section>
+
+                <!--2º SEÇÃO-->
+                <section>
+
+                    <h3>Top 3 coisas que gatos odeiam:</h3>
+
+                    <ol>
+
+                        <li>ir ao veterinário</li>
+                        <li>fogos de artifício</li>
+                        <li>invasores</li>
+
+                    </ol>
+
+                    <figure>
+
+                        <img src="img/cats-fighting.jpg" alt="Gato de boca aberta reagindo a presença de outro gato" width="280" height="185">
+                        <figcaption>Gatos <strong>odeiam</strong> invasores em seu territótio.</figcaption>
+
+                    </figure>
+
+                </section>
+
+            </article>
+
+            <!--SEÇÃO FINAL-->
+            <section id="colabore">
+
+                <hr>
+                
+                <h2>Colabore com o aplicativo!</h2>
+                <p>Responda <a href="/formulario_felino.html" target="_blank">essa pesquisa</a>. Nos ajude a entender mais sobre esses bichinhos.</p>
+                <p>PS: Se você quiser, pode anexar uma foto do seu gato para fazer parte de nossa galeria.</p>
+                <a href="/formulario_felino.html" target="_blank"><p>Quero participar da pesquisa!</p></a>
+
+                <hr>
+
+            </section>
+
+            <p><a href="#">Voltar ao topo</a></p>
+
+        </main>
+
+        <!--RODAPÉ-->
+        <footer>
+            
+            <p>&lt; &copy; Copyright App Meu Gatinho Fofinho &gt;</p>
+        
+        </footer>
+
+    </body>
+
+</html>

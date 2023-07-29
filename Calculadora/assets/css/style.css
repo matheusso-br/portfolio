@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+/** Cores **/
+:root {
+    /* Claro */
+    --color-white-100: #ffffff;
+
+    /* Escuro */
+    --color-black-50: #262626;
+    --color-black-100: #000000;
+
+    /* Laranja */
+    --color-orange-100: #ff5600;
+}
+
+/* Geral */
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estrutura */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-black-100);
+    color: var(--color-white-100);
+    text-align: center;
+    height: 100vh;
+}
+
+/* Calculadora */
+#container {
+    height: 70%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #ffffff;
+    text-align: center;
+    background-color: var(--color-black-50);
+    border-radius: 8px;
+
+}
+
+#result_container {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: var(--color-white-100);
+    width: 208px;
+    height: 50px;
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 2px;
+}
+
+#result {
+    color: var(--color-black-100);
+    padding-right: 5%;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-white-100);
+    color: var(--color-black-100);
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin: auto;
+    border: none;
+}
+
+.botao:hover {
+    color: var(--color-orange-100);
+}
+
+.botao_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-orange-100);
+    color: var(--color-withe-100);
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin: auto;
+    border: none;
+}
+
+.botao_2:hover {
+    transform: scale(0.9);
+}
