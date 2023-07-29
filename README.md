@@ -44,7 +44,7 @@ Durante meu curso, tenho adquirido conhecimentos sólidos em programação, algo
 
 ## Contribuição e Licença
 
-Este projeto está licenciado sob a [MIT License](LICENSE).
+Estes projetos estão licenciados sob a [MIT License](LICENSE).
 
 Se você tiver sugestões, correções ou quiser contribuir com algum dos meus projetos, fique à vontade para abrir um "Issue" ou enviar um "Pull Request".
 
