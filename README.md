@@ -33,6 +33,7 @@ Durante meu curso, tenho adquirido conhecimentos sólidos em programação, algo
 - CSS3 (avançado)
 - Bootstrap (intermediário)
 - JavaScript (intermediário)
+- React (básico)
 - Node.JS (básico)
 - Python (intermediário)
 - PHP (básico)
